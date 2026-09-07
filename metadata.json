@@ -1,0 +1,6 @@
+{
+  "name": "AIM Tutorials — Admin Portal",
+  "description": "Standalone Admin Management Portal for AIM Tutorials coaching institute to manage students, teachers, batches, assignments, attendance, and reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
