@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    border-color: #1F2942;
+  }
+}
+
+/* Custom scrollbars for Bento Grid theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B0F1A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1F2942;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Bento card subtle sheen helper */
+.bento-card {
+  position: relative;
+  background-color: rgba(17, 23, 38, 0.92);
+  border: 1px solid rgba(31, 41, 66, 0.85);
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4), 0 8px 10px -6px rgba(0, 0, 0, 0.4);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bento-card:hover {
+  border-color: rgba(99, 102, 241, 0.35);
+  box-shadow: 0 14px 30px -4px rgba(0, 0, 0, 0.5), 0 0 15px -3px rgba(99, 102, 241, 0.08);
+}
+
